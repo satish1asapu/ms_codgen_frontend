@@ -11,7 +11,7 @@ import Example from '../../assets/icons/Example.png'
 import Document from '../../assets/icons/Document.png'
 import Zip from '../../assets/icons/Zip.png'
 import Download from '../../assets/icons/Download.png'
-import liquidParser from '../../liquid/liquidParser'
+// import liquidParser from '../../liquid/liquidParser'
 import styles from './Aicodegen.module.css'
 import sharedStyles from '../../aicodegen.module.css'
 import StepperFunction from './stepper'
@@ -744,18 +744,18 @@ function App() {
     }))
   }
 
-  const goToHome = () => {
-    const baseRoute = liquidParser.parse('{{ vars["base-route"] }}')
-    window.location.href = `${baseRoute}`
-  }
+  // const goToHome = () => {
+  //   const baseRoute = liquidParser.parse('{{ vars["base-route"] }}')
+  //   window.location.href = `${baseRoute}`
+  // }
 
-  const handleBackStep = () => {
-    if (currentStep === 0) {
-      goToHome()
-    } else {
-      setCurrentStep(currentStep - 1)
-    }
-  }
+  // const handleBackStep = () => {
+  //   if (currentStep === 0) {
+  //     goToHome()
+  //   } else {
+  //     setCurrentStep(currentStep - 1)
+  //   }
+  // }
 
   const handleTestJobIdReceived = (jobId) => {
     setTestJobId(jobId)
@@ -850,13 +850,13 @@ function App() {
         <ProgressModal open={loading} text={progressText} />
         <div className={styles.back_container_head}>
           <div className={styles.sideBar}> </div>
-          <div
+          {/* <div
             className={styles.backContainer}
             onClick={() => handleBackStep()}
           >
             <img alt='Back' src={Back} className={styles.backImage} />
             <div className={styles.designButton}>Back</div>
-          </div>
+          </div> */}
         </div>
         <div className={styles.siteBody}>
           <div className={styles.sideBar}>

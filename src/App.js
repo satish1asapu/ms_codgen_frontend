@@ -7,20 +7,20 @@ import {
 } from 'react-router-dom'
 
 import './App.css'
-import liquidParser from './liquid/liquidParser'
+// import liquidParser from './liquid/liquidParser'
 import Aicodegen from './components/Aicodegen/Aicodegen'
 import { withStepOneValues } from './context/firstStepContext'
 
-const baseRoute = liquidParser.parse('{{ vars["base-route"] }}')
+// const baseRoute = liquidParser.parse('{{ vars["base-route"] }}')
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Navigate to={`${baseRoute}/mscodegen`} />} />
+        <Route path='/' element={<Navigate to={`/mscodegen`} />} />
         <Route
           exact
-          path={`${baseRoute}/mscodegen`}
+          path={`/mscodegen`}
           element={<Aicodegen />}
         ></Route>
       </Routes>
