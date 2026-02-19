@@ -1,0 +1,19 @@
+.directory p {
+ display: flex;
+ align-items: center;
+}
+
+.directory {
+ all:unset;
+ display: block;
+}
+
+.contents {
+ margin-left: 5px;
+ 
+}
+
+.file {
+ display: flex;
+ align-items: center;
+}

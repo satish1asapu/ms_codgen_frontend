@@ -1,0 +1,125 @@
+.aiInputLabel {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.aiErrorBanner {
+  color: red;
+  margin-left: 5px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.aiErrorInline {
+  color: red;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.aiNoMargin {
+  margin: 0;
+}
+
+.aiWidthFull {
+  width: 100%;
+}
+
+.aiWidth48 {
+  width: 48%;
+}
+
+.aiFieldShadow {
+  box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.aiFlexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aiMt10 {
+  margin-top: 10px;
+}
+
+.aiHeight56 {
+  height: 56px;
+  max-height: 56px;
+}
+
+.aiFileExplorerPane {
+  flex: 1;
+  margin-right: 20px;
+  min-width: 25%;
+  max-width: 25%;
+  overflow-x: auto;
+}
+
+.aiCodePreviewPane {
+  flex: 1;
+  border-left: 1px solid grey;
+  padding-left: 25px;
+  overflow: auto;
+}
+
+.aiYamlContainer {
+  background: black;
+  border-radius: 15px;
+  color: white;
+  max-width: 100%;
+  padding: 5px;
+  margin-right: 5%;
+  overflow: auto;
+  white-space: pre-wrap;
+  max-height: 500px;
+}
+
+.aiPointer {
+  cursor: pointer;
+}
+
+.aiAccordionIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.aiMb8 {
+  margin-bottom: 0.5rem;
+}
+
+.aiMr10 {
+  margin-right: 10px;
+}
+
+.aiTooltipText {
+  font-size: 13px;
+}
+
+.aiComingSoon {
+  margin-top: 1rem;
+  color: red;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.aiExpandableBody {
+  display: flex;
+}
+
+.aiExpandableFirst {
+  flex: 32;
+}
+
+.aiExpandableSecond {
+  flex: 1;
+}
+
+.aiProgressText {
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+

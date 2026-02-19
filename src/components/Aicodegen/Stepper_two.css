@@ -1,0 +1,82 @@
+/* Stepper_two.css */
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f9f9f9; */
+  }
+  
+  /* Form Rows */
+  .form-row {
+    display: flex;
+    justify-content: space-between; /* Separate label and checkboxes */
+    align-items: center;
+    margin-bottom: 10px; /* Space between rows */
+    font-size: 20px;
+    color: #1C242C;
+  }
+  
+  /* Labels */
+  .label {
+    flex: 0.5;
+    text-align: left; /* Left-align labels */
+  }
+  
+  /* Checkboxes and Select */
+  .checkboxes {
+   flex: 3;
+    display: flex;
+    justify-content: space-between; /* Align checkboxes to the right */
+  }
+  
+  /* Info Text */
+  .info-text {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  /* Button */
+  button {
+    margin-top: 20px; /* Space between form and button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Divider.css */
+.divider {
+    border-top: 1px solid #BBB; /* Define the line style */
+    margin: 10px 0; 
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+  }
+
+.form_container{
+    width: 60%;
+    border-right: 1px solid #BBB;
+    padding-right: 10px;
+}
+
+/* Style for radio buttons */
+.custom-radio {
+    color: #FF5722; /* Change to your desired color for the radio buttons */
+  }
+  
+  /* Style for radio button labels (text) */
+  .custom-label {
+    color: #2196F3; /* Change to your desired color for the labels (text) */
+  }
+  
